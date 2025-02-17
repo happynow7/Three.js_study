@@ -40,5 +40,8 @@ Geometry 객체를 그리는 데 사용하는 표면 (Texture) 속성이다.
 색, 밝기, 텍스처, 반질거림, 투명도 등을 설정할 수 있다.
 하나의 Material은 여러 개의 Texture를 사용할 수 있다.
 
-
-[https://velog.io/@greencloud/Three.js%EC%99%80%EC%9D%98-%EC%84%A4%EB%A0%88%EB%8A%94-%EC%B2%AB%EB%A7%8C%EB%82%A8-]
+- 출처
+  - https://velog.io/@greencloud/Three.js%EC%99%80%EC%9D%98-%EC%84%A4%EB%A0%88%EB%8A%94-%EC%B2%AB%EB%A7%8C%EB%82%A8-
+  - https://velog.io/@seongmini/Three.js-3D-%EA%B7%B8%EB%9E%98%ED%94%BD-%EC%9E%85%EB%AC%B8%ED%95%B4%EB%B3%B4%EA%B8%B0
+  - https://ungumungum.tistory.com/106
+  - https://velog.io/@jeon-yj/React.js-%EC%97%90%EC%84%9C-THREE.JS-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0
