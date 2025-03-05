@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { Canvas } from '@react-three/fiber';
+import Earth from './components/Earth';
+import SpeechBubble from './components/SpeechBubble';
+import styled from "styled-components";
+
+const CanvasContainer = styled.div`
+  width: 500px;  /* 원하는 너비 */
+  height: 500px; /* 원하는 높이 */
+`;
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div>
+        <CanvasContainer>
+          <Canvas>
+            <Earth />
+          </Canvas>
+        </CanvasContainer>
+        <SpeechBubble />
+      </div>
   );
 }
 
